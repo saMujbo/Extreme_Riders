@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Extreme Riders Branding */
+  --background: #E9F1F7;
+  --foreground: #131B23;
+  --card: #ffffff;
+  --card-foreground: #131B23;
+  --popover: #ffffff;
+  --popover-foreground: #131B23;
+  --primary: #AF0832;
+  --primary-foreground: #ffffff;
+  --secondary: #131B23;
+  --secondary-foreground: #E9F1F7;
+  --muted: #E9F1F7;
+  --muted-foreground: #816C61;
+  --accent: #816C61;
+  --accent-foreground: #ffffff;
+  --destructive: #AF0832;
+  --destructive-foreground: #ffffff;
+  --border: #816C61;
+  --input: #d1dce5;
+  --ring: #AF0832;
+  --radius: 0.5rem;
+
+  /* Extended palette */
+  --ink: #131B23;
+  --alice: #E9F1F7;
+  --carmine: #AF0832;
+  --taupe: #816C61;
+}
+
+@theme inline {
+  --font-sans: 'Inter', 'Geist', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ink: var(--ink);
+  --color-alice: var(--alice);
+  --color-carmine: var(--carmine);
+  --color-taupe: var(--taupe);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border/20 outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
