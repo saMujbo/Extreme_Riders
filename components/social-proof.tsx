@@ -1,4 +1,4 @@
-import { Star } from "lucide-react";
+﻿import { Star } from "lucide-react";
 import { TESTIMONIALS } from "@/lib/constants";
 
 function StarRating({ rating }: { rating: number }) {
@@ -23,10 +23,10 @@ export function SocialProof() {
         {/* Header */}
         <div className="mb-16 text-center">
           <span className="mb-4 inline-block text-xs font-bold uppercase tracking-widest text-carmine">
-            Reviews
+            Reseñas
           </span>
           <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-ink lg:text-5xl">
-            Riders trust us.
+            Los ciclistas confían en nosotros.
           </h2>
           <div className="mx-auto flex items-center justify-center gap-3">
             <div className="flex gap-1">
@@ -39,7 +39,7 @@ export function SocialProof() {
             </div>
             <span className="text-lg font-bold text-ink">4.9/5</span>
             <span className="text-sm text-taupe">
-              average customer satisfaction
+              satisfacción promedio de clientes
             </span>
           </div>
         </div>
@@ -73,7 +73,7 @@ export function SocialProof() {
                   <p className="text-sm font-bold text-ink">
                     {testimonial.name}
                   </p>
-                  <p className="text-xs text-taupe">Verified Customer</p>
+                  <p className="text-xs text-taupe">Cliente verificado</p>
                 </div>
               </div>
             </div>
@@ -83,20 +83,20 @@ export function SocialProof() {
         {/* Before / After */}
         <div>
           <h3 className="mb-8 text-center text-xl font-bold text-ink lg:text-2xl">
-            See the difference
+            Mira la diferencia
           </h3>
           <div className="grid gap-6 md:grid-cols-2 lg:gap-8">
             {/* Before */}
             <div className="group relative overflow-hidden rounded-2xl">
               <img
                 src="/assets/before.jpg"
-                alt="Bike before professional maintenance — worn and dirty components"
+                alt="Bicicleta antes del mantenimiento profesional, con componentes desgastados y sucios"
                 className="h-64 w-full object-cover transition-transform duration-500 group-hover:scale-105 lg:h-80"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-ink/80 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6">
                 <span className="inline-flex rounded-full bg-taupe/80 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary-foreground">
-                  Before
+                  Antes
                 </span>
               </div>
             </div>
@@ -105,13 +105,13 @@ export function SocialProof() {
             <div className="group relative overflow-hidden rounded-2xl">
               <img
                 src="/assets/after.jpg"
-                alt="Bike after professional maintenance — clean and restored components"
+                alt="Bicicleta después del mantenimiento profesional, con componentes limpios y restaurados"
                 className="h-64 w-full object-cover transition-transform duration-500 group-hover:scale-105 lg:h-80"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-ink/80 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6">
                 <span className="inline-flex rounded-full bg-carmine px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary-foreground">
-                  After
+                  Después
                 </span>
               </div>
             </div>
@@ -121,3 +121,7 @@ export function SocialProof() {
     </section>
   );
 }
+
+
+
+

@@ -54,8 +54,8 @@ export function Footer() {
               </span>
             </div>
             <p className="mb-6 max-w-xs text-sm leading-relaxed text-primary-foreground/50">
-              Professional bike workshop and accessories. Certified mechanics,
-              honest service, riders who care.
+              Taller profesional de bicicletas y accesorios. Mecánicos
+              certificados, servicio honesto y ciclistas que sí se preocupan.
             </p>
             {/* Social Icons */}
             <div className="flex gap-3">
@@ -63,7 +63,7 @@ export function Footer() {
                 <a
                   key={social.platform}
                   href={social.url}
-                  aria-label={`Follow us on ${social.platform}`}
+                  aria-label={`Síguenos en ${social.platform}`}
                   className="flex h-10 w-10 items-center justify-center rounded-lg border border-primary-foreground/10 text-primary-foreground/50 transition-all hover:border-carmine/30 hover:text-carmine"
                 >
                   <SocialIcon platform={social.platform} />
@@ -75,7 +75,7 @@ export function Footer() {
           {/* Quick Links */}
           <div>
             <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-primary-foreground/70">
-              Quick Links
+              Enlaces rápidos
             </h3>
             <div className="flex flex-col gap-3">
               {NAV_LINKS.map((link) => (
@@ -93,7 +93,7 @@ export function Footer() {
           {/* Contact */}
           <div>
             <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-primary-foreground/70">
-              Contact
+              Contacto
             </h3>
             <div className="flex flex-col gap-3 text-sm text-primary-foreground/50">
               <p>
@@ -108,11 +108,11 @@ export function Footer() {
         {/* Bottom */}
         <div className="flex flex-col items-center justify-between gap-4 pt-8 md:flex-row">
           <p className="text-xs text-primary-foreground/30">
-            &copy; {COPYRIGHT_YEAR} {BUSINESS_INFO.name}. All rights
-            reserved.
+            &copy; {COPYRIGHT_YEAR} {BUSINESS_INFO.name}. Todos los derechos
+            reservados.
           </p>
           <p className="text-xs text-primary-foreground/30">
-            Crafted for riders, by riders.
+            Hecho por ciclistas, para ciclistas.
           </p>
         </div>
       </div>

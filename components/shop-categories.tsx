@@ -1,4 +1,4 @@
-import {
+﻿import {
   Mountain,
   Route,
   Building2,
@@ -24,16 +24,16 @@ export function ShopCategories() {
         {/* Header */}
         <div className="mb-16 max-w-2xl">
           <span className="mb-4 inline-block text-xs font-bold uppercase tracking-widest text-carmine">
-            Shop
+            Tienda
           </span>
           <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-primary-foreground text-balance lg:text-5xl">
-            Bikes & accessories{" "}
-            <span className="text-carmine">that fit you.</span>
+            Bicicletas y accesorios{" "}
+            <span className="text-carmine">para ti.</span>
           </h2>
           <p className="text-lg leading-relaxed text-primary-foreground/60">
-            We help you choose the right bike size, type, and budget. We don
-            {"'"}t push the most expensive option — we recommend what actually
-            fits you.
+            Te ayudamos a elegir la talla, el tipo y el presupuesto correctos.
+            No empujamos la opción más cara; recomendamos lo que realmente te
+            queda bien.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export function ShopCategories() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm font-semibold text-carmine transition-colors hover:text-carmine/80"
                 >
-                  Check Availability
+                  Consultar disponibilidad
                   <span className="transition-transform group-hover:translate-x-1">
                     &rarr;
                   </span>
@@ -86,12 +86,14 @@ export function ShopCategories() {
           </svg>
           <p className="text-sm leading-relaxed text-primary-foreground/60">
             <strong className="text-primary-foreground">
-              No pressure sales.
+              Sin ventas con presión.
             </strong>{" "}
-            We help you find what you need, not what costs the most.
+            Te ayudamos a encontrar lo que necesitas, no lo que más cuesta.
           </p>
         </div>
       </div>
     </section>
   );
 }
+
+

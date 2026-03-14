@@ -58,7 +58,7 @@ export function Navbar() {
               rel="noopener noreferrer"
               className="rounded-lg bg-carmine px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:bg-carmine/90 hover:shadow-lg hover:shadow-carmine/25"
             >
-              Get a Quote
+              Cotizar
             </a>
           </div>
 
@@ -66,7 +66,7 @@ export function Navbar() {
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="flex h-10 w-10 items-center justify-center rounded-lg text-primary-foreground lg:hidden"
-            aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+            aria-label={isMobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
           >
             {isMobileMenuOpen ? (
               <X className="h-6 w-6" />
@@ -101,7 +101,7 @@ export function Navbar() {
               rel="noopener noreferrer"
               className="mt-2 inline-flex items-center justify-center rounded-lg bg-carmine px-5 py-3 text-sm font-semibold text-primary-foreground transition-all hover:bg-carmine/90"
             >
-              Get a Quote on WhatsApp
+              Cotizar por WhatsApp
             </a>
           </div>
         </div>
