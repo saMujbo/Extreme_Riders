@@ -1,3 +1,5 @@
+import { createElement } from "react";
+import Script from "next/script";
 import { NAV_LINKS, SOCIAL_LINKS, BUSINESS_INFO } from "@/lib/constants";
 
 const COPYRIGHT_YEAR = 2026;
@@ -30,6 +32,13 @@ function SocialIcon({ platform }: { platform: string }) {
 export function Footer() {
   return (
     <footer className="bg-ink pt-16 pb-8">
+      <Script
+        src="https://unpkg.com/@elevenlabs/convai-widget-embed"
+        strategy="afterInteractive"
+      />
+      {createElement("elevenlabs-convai", {
+        "agent-id": "agent_8901kkpgs8zyeyjvhe49k91e6829",
+      })}
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="grid gap-12 border-b border-primary-foreground/10 pb-12 md:grid-cols-3">
           {/* Brand */}
