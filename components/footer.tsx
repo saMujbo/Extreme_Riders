@@ -1,5 +1,7 @@
 import { NAV_LINKS, SOCIAL_LINKS, BUSINESS_INFO } from "@/lib/constants";
 
+const COPYRIGHT_YEAR = 2026;
+
 function SocialIcon({ platform }: { platform: string }) {
   switch (platform) {
     case "Instagram":
@@ -97,7 +99,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="flex flex-col items-center justify-between gap-4 pt-8 md:flex-row">
           <p className="text-xs text-primary-foreground/30">
-            &copy; {new Date().getFullYear()} {BUSINESS_INFO.name}. All rights
+            &copy; {COPYRIGHT_YEAR} {BUSINESS_INFO.name}. All rights
             reserved.
           </p>
           <p className="text-xs text-primary-foreground/30">
