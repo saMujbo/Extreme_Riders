@@ -80,7 +80,7 @@ export function LocationCTA() {
                   Mapa interactivo
                 </p>
                 <p className="text-xs text-taupe/50">
-                  Inserta aquí tu Google Maps
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d226.97403057175688!2d-85.41774732269366!3d10.061818537487383!2m3!1f344.5897110690491!2f44.99999999999073!3f0!3m2!1i1024!2i768!4f35!5e1!3m2!1ses-419!2scr!4v1774047601673!5m2!1ses-419!2scr" width="600" height="450"></iframe>
                 </p>
               </div>
             </div>

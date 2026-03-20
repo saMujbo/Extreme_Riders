@@ -3,7 +3,7 @@
 // ============================================
 
 // WhatsApp Configuration
-export const WHATSAPP_NUMBER = "XXXXXXXXXXX";
+export const WHATSAPP_NUMBER = "+50687462594";
 export const WHATSAPP_MESSAGE = "Hola, vengo desde la web de Extreme Riders y me gustaría solicitar una cotización.";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
@@ -116,15 +116,14 @@ export const VALUES = [
 // Business Info
 export const BUSINESS_INFO = {
   name: "Extreme Riders",
-  address: "123 Cycling Avenue, Bike District",
-  city: "Your City, State 12345",
+  address: "Hojancha, Guanacaste, Costa Rica",
+  city: "Av. viento fresco, 500m este de la gasolinera",
   hours: [
-    { day: "Lunes a viernes", time: "9:00 AM - 7:00 PM" },
-    { day: "Sábado", time: "9:00 AM - 5:00 PM" },
-    { day: "Domingo", time: "Cerrado" },
+    { day: "Lunes a Domingo", time: "9:00 AM - 9:00 PM" },
+
   ],
-  phone: "+1 (555) 123-4567",
-  email: "hello@extremeriders.com",
+  phone: "+506 87462594",
+  email: "info@extremeriders.com",
 } as const;
 
 // Social Links
